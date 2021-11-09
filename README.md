@@ -17,5 +17,5 @@ usersong_matrix_df saved in https://drive.google.com/file/d/1e9WlXgqsR1bhFBNPF6j
 
 ## Reference
 Some other project inspired me:
--It's a AI-powered music recommendation system, Pro: using machine learning technical and clean layout. Con: Not every song can be played on website https://www.gnoosic.com/
+-It's a AI-powered music recommendation system, Pro: using machine learning technical and clean layout. Con: Not every song can be played on website https://www.gnoosic.com/ <br />
 -A music recommandation website with clean structure, Pro: user-friendly layout, Con:Every playlist is curated by people, which is a demanding job for one person. https://noonpacific.com/los-angeles/noon-446
