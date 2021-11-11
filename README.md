@@ -3,14 +3,19 @@ Music plays an important role in my life and I found music have a strong power b
 
 ## Overview
 
+
 ## Background and Motivation
 
 ## Goals
 
 ## Datasets
+usersong_matrix_df saved in https://drive.google.com/file/d/1e9WlXgqsR1bhFBNPF6j1XfUIAzrXM5DW/view?usp=sharing
 
 ## Practical Applications
 
 ## Milestones
 
-## References
+## Reference
+Some other project inspired me:<br />
+-It's a AI-powered music recommendation system, Pro: using machine learning technical and clean layout. Con: Not every song can be played on website https://www.gnoosic.com/ <br />
+-A music recommandation website with clean structure, Pro: user-friendly layout, Con:Every playlist is curated by people, which is a demanding job for one person. https://noonpacific.com/los-angeles/noon-446
