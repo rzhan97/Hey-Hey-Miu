@@ -1,19 +1,20 @@
 # Music_rec_app
-Music plays an important role in my life and I found music have a strong power by connecting people and affect people's emotion.People like to share their spotify annual report to social media and make connection with their friends. During the pandemic, music sharing as a important factor showing increase from the study. 
+
 
 ## Overview
-
+Music plays an important role in our life and music always have a strong power by connecting us like sharing songs and affect our emotion when we need motivation or a enjoyable cooking time.
+During the pandemic, music sharing as a important factor in the social showing increase from the study, I would like to build an end-to-end recommender system for music.
 
 ## Background and Motivation
+Start this project because my entusiation for the music and curious how AI can help in a music recommendation system
 
 ## Goals
+Build a webapp that recommend music based on machine learning algorithm 
 
 ## Datasets
+Since there is not a complete dataset online about how real users' listening habit recently, I scraping the user name on LastFM website and get user's listen habits ,which is top tracks they recently listening from Lastfm API, and scale the times of a song they listen into a rating score.  
 usersong_matrix_df saved in https://drive.google.com/file/d/1e9WlXgqsR1bhFBNPF6j1XfUIAzrXM5DW/view?usp=sharing
 
-## Practical Applications
-
-## Milestones
 
 ## Reference
 Some other project inspired me:<br />
