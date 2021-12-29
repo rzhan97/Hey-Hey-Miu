@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 
 def get_user_name(root_user,path):
     """
-    Function use to scrap all the user we need
+    Function used to scrap all the user we need
 
     :param root_user: the root user's id
     :param path: webdriver located, current path  = "/Users/zoe/Desktop/chromedriver"
