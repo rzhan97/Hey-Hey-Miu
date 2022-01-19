@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+{% block predictions %}
+<div class='predictions'>
+    <h2 style='color: #ececec'>Results</h2>
+        {% for song in predictions %}
+        <p class='song' style="font-size: 10pt"> <a  href={{song}} target="_blank"> {{ song[0]}} </a> </p>
+        {% endfor %}    
+</div>
+{% endblock %}
+

@@ -156,7 +156,7 @@ def convert_to_userrating(usersong_df):
     usersong_df[["count"]] = usersong_df[["count"]].apply(pd.to_numeric)
 
     cols = ['user', 'song', 'count']
-    usersong_df = pd.DataFrame(load_df, columns=cols)
+    usersong_df = pd.DataFrame(usersong_df, columns=cols)
 
     usersong_df['new_rating'] = usersong_df.groupby('user').transform(
         lambda x: ((5 - 1) / ((x.max() + 0.00001) - x.min())) * (x - x.max()) + 5)

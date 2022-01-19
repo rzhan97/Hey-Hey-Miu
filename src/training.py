@@ -5,11 +5,14 @@ Created on 2021-12-27
 @author: zoe
 """
 from surprise import Dataset
+
+import pandas as pd
 from surprise import Reader
 from surprise import SVD
 from surprise.model_selection import train_test_split, GridSearchCV
 from surprise import accuracy
 import data_scrape, data_preprocess
+
 
 
 def load_dataset(path):
@@ -28,7 +31,7 @@ def create_surprise_dataset(df, rating_scale):
     :return:
     """
     reader = Reader(rating_scale=rating_scale)
-    surprise_data = Dataset.load_from_df(df[[user, item, rating]], reader)
+    surprise_data = Dataset.load_from_df(df[['user', 'song', 'new_rating']], reader)
     return surprise_data
 
 
@@ -91,7 +94,14 @@ def run_model(trainset, testset, best_params):
     return svd_fit, predictions, test_rmse
 
 
-# if __name__ == "__main__":
+def testfunction(input):
+
+    print(input)
+
+
+
+ # if __name__ == "__main__":
+ #     print("yes")
 #     """
 #     Training the best model
 #     """
