@@ -15,6 +15,8 @@ Build a webapp that recommend music based on user's listening history and powere
 Since there is not a complete dataset online about how real users' listening habit recently, I scraping the user name on LastFM website and get user's listen habits ,which is top tracks they recently listening from Lastfm API, and scale the times of a song they listen into a rating score.  
 usersong_matrix_df saved in https://drive.google.com/file/d/1e9WlXgqsR1bhFBNPF6j1XfUIAzrXM5DW/view?usp=sharing
 
+## How it works
+![84171642604663_ pic](https://user-images.githubusercontent.com/37779983/150181600-dcad03c1-95cd-4b4a-85dd-7ee94c4ba9f8.jpg)
 
 ## Reference
 Some other project inspired me:<br />
